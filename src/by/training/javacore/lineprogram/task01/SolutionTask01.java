@@ -2,7 +2,7 @@ package by.training.javacore.lineprogram.task01;
 
 import java.util.Scanner;
 
-public class Solution {
+public class SolutionTask01 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -15,8 +15,9 @@ public class Solution {
 		System.out.println("Введите переменную b: ");
 		b = scanner.nextDouble();
 		System.out.println("Введите переменную c: ");
-		
 		c = scanner.nextDouble();
+		
+		scanner.close();
 
 		double answer = ((a - 3) * b / 2) + c;
 		System.out.println(answer);
