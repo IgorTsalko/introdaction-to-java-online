@@ -9,18 +9,18 @@ public class SolutionTask02 {
 		
 		double a, b, c, z;
 		
-		System.out.println("Введите переменную a: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ a: ");
 		a = scanner.nextDouble();
-		System.out.println("Введите переменную b: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ b: ");
 		b = scanner.nextDouble();
-		System.out.println("Введите переменную c: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ c: ");
 		c = scanner.nextDouble();
 		
 		z = b + Math.sqrt(b*b + 4*a*c);
 		z /= 2*a;
 		z -= Math.pow(a, 3)*c + Math.pow(b, -2);
 		
-		System.out.println("Результат уравнения: " + z);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ СѓСЂР°РІРЅРµРЅРёСЏ: " + z);
 				
 		scanner.close();
 	}
