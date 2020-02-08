@@ -1,4 +1,4 @@
-package by.training.javacore.lineprogram.task03;
+package by.training.javacore.line_program.task03;
 
 import java.util.Scanner;
 
