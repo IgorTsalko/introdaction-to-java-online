@@ -1,4 +1,4 @@
-package by.training.javacore.branching_program.task01;
+package by.training.module01.branching_program;
 
 import java.util.Scanner;
 

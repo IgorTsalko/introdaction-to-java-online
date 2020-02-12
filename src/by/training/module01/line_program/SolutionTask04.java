@@ -1,4 +1,4 @@
-package by.training.javacore.line_program.task04;
+package by.training.module01.line_program;
 
 public class SolutionTask04 {
 	
