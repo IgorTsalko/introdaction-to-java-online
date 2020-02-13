@@ -1,4 +1,4 @@
-package by.training.module01.line_program;
+package by.training.module01.line_programs;
 
 import java.util.Scanner;
 
@@ -16,8 +16,6 @@ public class SolutionTask03 {
 		
 		z = (Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y));
 		z *= Math.tan(x*y);
-		
-		scanner.close();
 		
 		System.out.print("Результат уравнения: " + z);
 	}

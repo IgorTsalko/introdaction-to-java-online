@@ -1,4 +1,4 @@
-package by.training.module01.line_program;
+package by.training.module01.line_programs;
 
 import java.util.Scanner;
 
@@ -16,8 +16,6 @@ public class SolutionTask05 {
 		s = timeInSec%60;
 		m = ((timeInSec - s)/60)%60;
 		h = ((timeInSec - m)/60)/60;
-		
-		scanner.close();
 		
 		System.out.print(h + "ч " + m + "мин " + s + "с");
 	}

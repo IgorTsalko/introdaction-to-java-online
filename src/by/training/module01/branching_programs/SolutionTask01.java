@@ -1,4 +1,4 @@
-package by.training.module01.branching_program;
+package by.training.module01.branching_programs;
 
 import java.util.Scanner;
 
@@ -13,8 +13,6 @@ public class SolutionTask01 {
 		angle1 = scanner.nextInt();
 		System.out.println("Введите второй угол: ");
 		angle2 = scanner.nextInt();
-		
-		scanner.close();
 		
 		if (angle1 + angle2 < 180) {
 			if (180 - angle1 - angle2 == 90 || angle1 == 90 || angle2 == 90) {

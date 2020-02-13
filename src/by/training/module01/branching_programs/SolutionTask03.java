@@ -1,4 +1,4 @@
-package by.training.module01.branching_program;
+package by.training.module01.branching_programs;
 
 public class SolutionTask03 {
 	

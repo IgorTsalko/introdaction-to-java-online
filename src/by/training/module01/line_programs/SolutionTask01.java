@@ -1,4 +1,4 @@
-package by.training.module01.line_program;
+package by.training.module01.line_programs;
 
 import java.util.Scanner;
 
@@ -17,7 +17,6 @@ public class SolutionTask01 {
 		System.out.println("Введите переменную c: ");
 		c = scanner.nextDouble();
 		
-		scanner.close();
 
 		double answer = ((a - 3) * b / 2) + c;
 		System.out.println(answer);

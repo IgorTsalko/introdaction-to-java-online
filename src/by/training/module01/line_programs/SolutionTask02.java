@@ -1,4 +1,4 @@
-package by.training.module01.line_program;
+package by.training.module01.line_programs;
 
 import java.util.Scanner;
 
@@ -22,7 +22,6 @@ public class SolutionTask02 {
 		
 		System.out.println("Результат уравнения: " + z);
 				
-		scanner.close();
 	}
 
 }
